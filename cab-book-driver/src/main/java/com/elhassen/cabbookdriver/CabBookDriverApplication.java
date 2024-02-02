@@ -12,5 +12,6 @@ public class CabBookDriverApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CabBookDriverApplication.class, args);
 		logger.info("This is my information !");
+		logger.debug("I'm here ...");
 	}
 }
